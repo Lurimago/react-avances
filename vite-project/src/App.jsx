@@ -6,12 +6,19 @@ import FavFood from './components/FavFood';
 import MyStack from './components/MyStack';
 import Card from './components/Card';
 import Contador from './components/Contador';
-
+import MostrarPass from './components/MostrarPass';
+import Bulb from './components/Bulb';
+//import BulbSinc from './components/BulbSinc';
+import Users from './components/Users';
 
 function App() {
   return (
     <div className="App">
-      <Contador/>
+      <Users/>
+
+      <Bulb />
+      <MostrarPass />
+      <Contador />
       <Card
         title="Sobre mí"
         item1="Lurimago"
@@ -47,11 +54,11 @@ function App() {
         item3="JavaScript"
         background="bg-yellow"
       />
-      <AboutMe/>
-      <Hobbies/>
-      <FreeTime/> 
-      <FavFood/>
-      <MyStack/>
+      <AboutMe />
+      <Hobbies />
+      <FreeTime />
+      <FavFood />
+      <MyStack />
     </div>
   )
 }
