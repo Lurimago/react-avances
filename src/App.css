@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-wrap:wrap;
+}
+.App h3{
+  text-align: center;
+}
+
+.card{
+  width:  350px;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+  background: #FFF;
+}
+.card img{
+border-radius: 50%;
+}
+.card ul{
+  list-style: none;
+  text-align: left;
+  }
+  .card li{
+margin: 10px;
+    }
+  .card button{
+      margin: 10px;
+      margin-left: 40%;
+          }
+  .shuffle{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+  }
+.bg-green{
+  background-color: #90EE90;
+}
+.bg-redsuave{
+  background-color: #F08080;
+}
+.bg-bluesuave{
+  background-color: #ADD8E6;
+}
+.bg-orangesuave{
+  background-color: #FFA07A;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.bg-grey{
+  background-color: grey;
+}
+.bulb{
+  margin: auto;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
