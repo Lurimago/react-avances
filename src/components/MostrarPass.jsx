@@ -10,7 +10,7 @@ const MostrarPass = () => {
         <h3>Ejercicio de la Clase</h3>     
         <h3>Mostrar/Ocultar Pass</h3>
         <input type={isVisible ? "text":"password"}/>
-        <button onClick={toggleIsVisible}>Mostrar/Ocultar</button>
+        <button onClick={() => setIsVisible(!isVisible)}>Mostrar/Ocultar</button>
         </div>
     )
 }

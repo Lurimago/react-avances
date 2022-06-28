@@ -21,11 +21,11 @@ const Users = () => {
         <h3>{users[index].name.title} {users[index].name.first} {users[index].name.last}</h3>
         <img src={users[index].picture.large} alt="" style={{marginLeft: "30%"}}/>
         <ul>
-                <li><i class="fa-solid fa-envelope"></i>{users[index].email}</li>
-                <li><i class="fa-solid fa-phone"></i>{users[index].phone}</li>
-                <li><i class="fa-solid fa-location-dot"></i>{users[index].location.country},{users[index].location.city}, {users[index].location.state}</li>
+                <li><i className="fa-solid fa-envelope"></i>{users[index].email}</li>
+                <li><i className="fa-solid fa-phone"></i>{users[index].phone}</li>
+                <li><i className="fa-solid fa-location-dot"></i>{users[index].location.country},{users[index].location.city}, {users[index].location.state}</li>
             </ul>
-        <button onClick={changeUser} style={{backgroundColor: color}} className="shuffle"> <i class="fa-solid fa-shuffle"></i></button>
+        <button onClick={changeUser} style={{backgroundColor: color}} className="shuffle"> <i className="fa-solid fa-shuffle"></i></button>
         {/* <button onClick={nextUser} style={{marginLeft: "20%", marginTop: "5%"}}>Next User</button> */}
         
         </div>

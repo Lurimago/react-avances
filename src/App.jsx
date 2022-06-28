@@ -11,6 +11,8 @@ import MostrarPass from './components/MostrarPass';
 import Bulb from './components/Bulb';
 import BulbSinc from './components/BulbSinc';
 import Users from './components/Users';
+import CounterWeek2 from './components/CounterWeek2';
+
 
 function App() {
   const [isOn, setIsOn] = useState(false)
@@ -19,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <CounterWeek2/>
       <Users />
       <BulbSinc
         title="Tarea Moral Bombillas"
